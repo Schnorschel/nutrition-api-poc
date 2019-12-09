@@ -1,0 +1,567 @@
+{
+  "text" : "cauliflower",
+  "parsed" : [ {
+    "food" : {
+      "foodId" : "food_buqfaxubzh6hi5asev8a5aj9sr71",
+      "label" : "Cauliflower",
+      "nutrients" : {
+        "ENERC_KCAL" : 25.0,
+        "PROCNT" : 1.92,
+        "FAT" : 0.28,
+        "CHOCDF" : 4.97,
+        "FIBTG" : 2.0
+      },
+      "category" : "Generic foods",
+      "categoryLabel" : "food"
+    }
+  } ],
+  "hints" : [ {
+    "food" : {
+      "foodId" : "food_buqfaxubzh6hi5asev8a5aj9sr71",
+      "label" : "cauliflower",
+      "nutrients" : {
+        "ENERC_KCAL" : 25.0,
+        "PROCNT" : 1.92,
+        "FAT" : 0.28,
+        "CHOCDF" : 4.97,
+        "FIBTG" : 2.0
+      },
+      "category" : "Generic foods",
+      "categoryLabel" : "food"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+      "label" : "Whole",
+      "qualified" : [ [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_small",
+        "label" : "small"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_medium",
+        "label" : "medium"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_large",
+        "label" : "large"
+      } ] ]
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_head",
+      "label" : "Head",
+      "qualified" : [ [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_medium",
+        "label" : "medium"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_large",
+        "label" : "large"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_small",
+        "label" : "small"
+      } ] ]
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+      "label" : "Serving"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_floweret",
+      "label" : "Floweret"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+      "label" : "Piece"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup",
+      "qualified" : [ [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_chopped",
+        "label" : "chopped"
+      } ] ]
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_buqfaxubzh6hi5asev8a5aj9sr71",
+      "label" : "cauliflower rice",
+      "nutrients" : {
+        "ENERC_KCAL" : 25.0,
+        "PROCNT" : 1.92,
+        "FAT" : 0.28,
+        "CHOCDF" : 4.97,
+        "FIBTG" : 2.0
+      },
+      "category" : "Generic foods",
+      "categoryLabel" : "food"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+      "label" : "Whole",
+      "qualified" : [ [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_small",
+        "label" : "small"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_medium",
+        "label" : "medium"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_large",
+        "label" : "large"
+      } ] ]
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_head",
+      "label" : "Head",
+      "qualified" : [ [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_medium",
+        "label" : "medium"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_large",
+        "label" : "large"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_small",
+        "label" : "small"
+      } ] ]
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+      "label" : "Serving"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_floweret",
+      "label" : "Floweret"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+      "label" : "Piece"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup",
+      "qualified" : [ [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_chopped",
+        "label" : "chopped"
+      } ] ]
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_b6m7e1nb77qpczai7opz8bo18for",
+      "label" : "cauliflower, raw",
+      "nutrients" : {
+        "ENERC_KCAL" : 25.0,
+        "PROCNT" : 1.92,
+        "FAT" : 0.28,
+        "CHOCDF" : 4.97,
+        "FIBTG" : 2.0
+      },
+      "category" : "Generic foods",
+      "categoryLabel" : "food",
+      "image" : "https://www.edamam.com/food-img/ca2/ca217d31067dffd35ce1215e7f336bd8.jpg"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_head",
+      "label" : "Head",
+      "qualified" : [ [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_medium",
+        "label" : "medium"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_large",
+        "label" : "large"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_small",
+        "label" : "small"
+      } ] ]
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup",
+      "qualified" : [ [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_chopped",
+        "label" : "chopped"
+      } ] ]
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+      "label" : "Whole",
+      "qualified" : [ [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_small",
+        "label" : "small"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_medium",
+        "label" : "medium"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_large",
+        "label" : "large"
+      } ] ]
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+      "label" : "Piece"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_floweret",
+      "label" : "Floweret"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+      "label" : "Serving"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_aqej56mbnhd903amowl4xb4w67dm",
+      "label" : "frozen cauliflower",
+      "nutrients" : {
+        "ENERC_KCAL" : 24.0,
+        "PROCNT" : 2.01,
+        "FAT" : 0.27,
+        "CHOCDF" : 4.68,
+        "FIBTG" : 2.3
+      },
+      "category" : "Generic foods",
+      "categoryLabel" : "food"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+      "label" : "Package"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_b3nx8esai9zx16a5dwwawbnuahs2",
+      "label" : "cauliflower, frozen, unprepared",
+      "nutrients" : {
+        "ENERC_KCAL" : 24.0,
+        "PROCNT" : 2.01,
+        "FAT" : 0.27,
+        "CHOCDF" : 4.68,
+        "FIBTG" : 2.3
+      },
+      "category" : "Generic foods",
+      "categoryLabel" : "food",
+      "image" : "https://www.edamam.com/food-img/639/639284ee89360fbfaa9fd1a284cd524a.jpg"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_package",
+      "label" : "Package"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_b7rpv84b7bdrlcarru207ao2v0ut",
+      "label" : "cauliflower, green, raw",
+      "nutrients" : {
+        "ENERC_KCAL" : 31.0,
+        "PROCNT" : 2.95,
+        "FAT" : 0.3,
+        "CHOCDF" : 6.09,
+        "FIBTG" : 3.2
+      },
+      "category" : "Generic foods",
+      "categoryLabel" : "food",
+      "image" : "https://www.edamam.com/food-img/378/378de9b124c83a613f14a8f4c8e109ec.jpg"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_head",
+      "label" : "Head",
+      "qualified" : [ [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_medium",
+        "label" : "medium"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_large",
+        "label" : "large"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_small",
+        "label" : "small"
+      } ] ]
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+      "label" : "Serving"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_floweret",
+      "label" : "Floweret"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_ahotghhb4ova7fb3vddgeby9q6qm",
+      "label" : "Cauliflower, green, cooked, with salt",
+      "nutrients" : {
+        "ENERC_KCAL" : 32.0,
+        "PROCNT" : 3.04,
+        "FAT" : 0.31,
+        "CHOCDF" : 6.28,
+        "FIBTG" : 3.3
+      },
+      "category" : "Generic foods",
+      "categoryLabel" : "food",
+      "image" : "https://www.edamam.com/food-img/89b/89b6dcdb15f1d16ff526cd2b216b67d7.jpg"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_b4fl1ykai8wk8ta0zuonobrixwfq",
+      "label" : "cauliflower, green, cooked, no salt added",
+      "nutrients" : {
+        "ENERC_KCAL" : 32.0,
+        "PROCNT" : 3.04,
+        "FAT" : 0.31,
+        "CHOCDF" : 6.28,
+        "FIBTG" : 3.3
+      },
+      "category" : "Generic foods",
+      "categoryLabel" : "food",
+      "image" : "https://www.edamam.com/food-img/cac/cac6c0de2e97c852345224dc375c1eb5.jpg"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_head",
+      "label" : "Head"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_bpfrctyajrxz2rblmaic6apqa7xr",
+      "label" : "cauliflower, cooked, boiled, drained, with salt",
+      "nutrients" : {
+        "ENERC_KCAL" : 23.0,
+        "PROCNT" : 1.84,
+        "FAT" : 0.45,
+        "CHOCDF" : 4.11,
+        "FIBTG" : 2.3
+      },
+      "category" : "Generic foods",
+      "categoryLabel" : "food",
+      "image" : "https://www.edamam.com/food-img/b07/b077732c9ae8f5e0e30cee41d249cec3.jpeg"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_floweret",
+      "label" : "Floweret"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_biy0o1kb44uq2yb1edwcuah5gfxz",
+      "label" : "cauliflower, cooked, boiled, drained, without salt",
+      "nutrients" : {
+        "ENERC_KCAL" : 23.0,
+        "PROCNT" : 1.84,
+        "FAT" : 0.45,
+        "CHOCDF" : 4.11,
+        "FIBTG" : 2.3
+      },
+      "category" : "Generic foods",
+      "categoryLabel" : "food",
+      "image" : "https://www.edamam.com/food-img/7f4/7f4a3f73a8bbc2c403590d51dd89509e.jpg"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_floweret",
+      "label" : "Floweret"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_bfxus9abgbrlwmbnxa8flb10uduw",
+      "label" : "pickles, chowchow, with cauliflower onion mustard, sweet",
+      "nutrients" : {
+        "ENERC_KCAL" : 121.0,
+        "PROCNT" : 1.5,
+        "FAT" : 0.9,
+        "CHOCDF" : 26.64,
+        "FIBTG" : 1.5
+      },
+      "category" : "Generic foods",
+      "categoryLabel" : "food",
+      "image" : "https://www.edamam.com/food-img/353/35302e3487ebfcd35c9aa6cb5423df0a.jpg"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_ak613rubewdcs5b7x5ohcaxxotpa",
+      "label" : "cauliflower, frozen, cooked, boiled, drained, with salt",
+      "nutrients" : {
+        "ENERC_KCAL" : 17.0,
+        "PROCNT" : 1.61,
+        "FAT" : 0.22,
+        "CHOCDF" : 3.16,
+        "FIBTG" : 2.7
+      },
+      "category" : "Generic foods",
+      "categoryLabel" : "food",
+      "image" : "https://www.edamam.com/food-img/6a9/6a9582a16fd7ff1189d5c607851d8e53.jpeg"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_alwkmp3bi7ruvpac49joua5qg28q",
+      "label" : "cauliflower, frozen, cooked, boiled, drained, without salt",
+      "nutrients" : {
+        "ENERC_KCAL" : 19.0,
+        "PROCNT" : 1.61,
+        "FAT" : 0.22,
+        "CHOCDF" : 3.75,
+        "FIBTG" : 2.7
+      },
+      "category" : "Generic foods",
+      "categoryLabel" : "food",
+      "image" : "https://www.edamam.com/food-img/2b9/2b981f709bb8de5c1ad07fbfccd5a62c.jpg"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup"
+    } ]
+  } ]
+}

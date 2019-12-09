@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import data from '../data/parser.json'
+// import data from '../data/parser.json'
+import data from '../data/parser.generic-foods.json'
 import FoodItemPreview from './FoodItemPreview'
 
 const SearchNutrition = () => {
@@ -47,6 +48,7 @@ const SearchNutrition = () => {
                                     foodFat={item.food.nutrients.FAT}
                                     foodCarbs={item.food.nutrients.CHOCDF}
                                     foodFiber={item.food.nutrients.FIBTG}
+                                    measures={item.measures}
                     />})
             }
             </section>

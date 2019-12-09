@@ -1,4 +1,5 @@
 import React from 'react'
+import AmountSelector from './AmountSelector'
 
 const FoodItemPreview = props => {
   // All numbers are rounded to one digit
@@ -83,6 +84,7 @@ const FoodItemPreview = props => {
     // prettier-ignore
     <div className="foodPreviewCont">
       <section className="foodName">{toPascalCase(props.foodLabel.toLowerCase())}</section><section className="foodId">{props.foodId.substring(props.foodId.length - 4)}</section>
+      {/* <section className="measures"><AmountSelector measures={props.measures} /></section> */}
       {props.foodCategory && <section className="foodCategory dataItem">{props.foodCategory}</section>}
       {props.foodBrand && props.foodBrand.toLowerCase().replace(props.searchFor.toLowerCase(), '').length > 2 && <section className="foodBrand dataItem">{props.foodBrand}</section>}
       {props.foodContentsLabel && props.foodContentsLabel.toLowerCase().replace(props.searchFor.toLowerCase(), '').length > 2 && <section className="foodContentsLabel dataItem">{formatLabel(props.foodContentsLabel).replace(/;/g, ',')}</section>}
