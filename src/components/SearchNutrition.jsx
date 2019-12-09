@@ -17,8 +17,8 @@ const SearchNutrition = () => {
     // } else {
     // setSearchFood(resp.data.hints)
     // }
-    console.log(data.hints)
-    setFoodData(data.hints)
+    console.log(data)
+    setFoodData(data)
   }
 
   const searchForThisFood = () => {
@@ -28,14 +28,18 @@ const SearchNutrition = () => {
   return (
     // prettier-ignore
     <>
-        <div>Search for food:</div>
-        <input type="text" value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
-        <button className="searchFood" onClick={searchForThisFood}>Search</button>
+        <section className="searchBar">
+          <section>Search for food:</section>{' '}
+          <input type="text" value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />{' '}
+          <button className="searchFood" onClick={searchForThisFood}>Search</button>
+        </section>
         <section className="foodsCont">
-          {foodData && foodData.map((item, index) => {
+          {typeof foodData !== 'undefined' && foodData.hints && foodData.hints.map((item, index) => {
             return <FoodItemPreview key={index}
+                                    searchFor={data.text}
                                     foodId={item.food.foodId}
                                     foodLabel={item.food.label}
+                                    foodCategory={item.food.category}
                                     foodContentsLabel={item.food.foodContentsLabel}
                                     foodBrand={item.food.brand}
                                     foodKcal={item.food.nutrients.ENERC_KCAL}

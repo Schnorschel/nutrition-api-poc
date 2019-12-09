@@ -1,6 +1,7 @@
 import React from 'react'
 
 const FoodItemPreview = props => {
+  // All numbers are rounded to one digit
   const formatNum = num => {
     if (typeof num !== 'undefined' || !isNaN(num)) {
       return parseFloat(num).toFixed(1)
@@ -26,12 +27,65 @@ const FoodItemPreview = props => {
     }
   }
 
+  // Capitalizes first letter of string s
+  const toSentenceCase = s => {
+    if (s.length === 0) return ''
+    return s.substr(0, 1).toUpperCase() + s.substr(1)
+  }
+
+  // Capitalizes every word in string s
+  const toPascalCase = s => {
+    if (s.length === 0) return ''
+    return s
+      .split(' ')
+      .map(str => {
+        return toSentenceCase(str)
+      })
+      .join(' ')
+  }
+
+  // returns true if string s consists of mostly block capitals (90%)
+  const isMostlyBlockCapitals = s => {
+    return (
+      s.split('').reduce((total, letter) => {
+        return (total += letter >= 'A' && letter <= 'Z' ? 1 : 0)
+      }, 0) > parseInt(s.length * 0.9)
+    )
+  }
+
+  const noOfBlockCapitals = s => {
+    return s.split('').reduce((total, letter) => {
+      return (total += letter >= 'A' && letter <= 'Z' ? 1 : 0)
+    }, 0)
+  }
+
+  // Returns a number that expresses the ratio between the count of
+  // lower and upper case letters in string s.
+  // If the returned number is greater than 0, there are more upper case
+  // than lower case letters, vice versa if negative.
+  // prettier-ignore
+  const lowerToUpperCaseBalance = (s) => {
+    return s.split('').reduce((total, letter) => {
+      return (total += letter >= 'A' && letter <= 'Z' ? 1 : 
+                       letter >= 'a' && letter <= 'z' ? -1 : 0)
+    }, 0)
+  }
+
+  const formatLabel = s => {
+    if (lowerToUpperCaseBalance(s) > 0) {
+      return toPascalCase(s.toLowerCase())
+    } else {
+      return toSentenceCase(s)
+    }
+  }
+
   return (
     // prettier-ignore
     <div className="foodPreviewCont">
-      <section className="foodName">{props.foodLabel}</section> 
-      {props.foodBrand && <section className="foodBrand dataItem">{props.foodBrand}</section>}
-      {props.foodContentsLabel && props.foodContentsLabel.toLowerCase().replace(props.foodLabel.toLowerCase(), '').length > 2 && <section className="foodContentsLabel dataItem">{props.foodContentsLabel.replace(/;/g, ',')}</section>}
+      <section className="foodName">{toPascalCase(props.foodLabel.toLowerCase())}</section><section className="foodId">{props.foodId.substring(props.foodId.length - 4)}</section>
+      {props.foodCategory && <section className="foodCategory dataItem">{props.foodCategory}</section>}
+      {props.foodBrand && props.foodBrand.toLowerCase().replace(props.searchFor.toLowerCase(), '').length > 2 && <section className="foodBrand dataItem">{props.foodBrand}</section>}
+      {props.foodContentsLabel && props.foodContentsLabel.toLowerCase().replace(props.searchFor.toLowerCase(), '').length > 2 && <section className="foodContentsLabel dataItem">{formatLabel(props.foodContentsLabel).replace(/;/g, ',')}</section>}
       {props.foodKcal && <><section className="foodLabel dataItem">Calories:</section><section className="foodValue dataItem">{formatNum(props.foodKcal)} kcal</section></>}
       {props.foodProtein && <><section className="foodLabel dataItem">Protein:</section><section className="foodValue dataItem">{formatNum(props.foodProtein)} g</section></> }
       {props.foodFat && <><section className="foodLabel dataItem">Fat:</section><section className="foodValue dataItem">{formatNum(props.foodFat)} g</section></> }
