@@ -10,3 +10,65 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-left: 1%;
+}
+
+.foodsCont {
+  display: flex;
+  flex-wrap: wrap;
+}
+.foodPreviewCont {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px;
+  width: 23.75%;
+  margin-right: 1%;
+  margin-top: 1%;
+  align-content: flex-start;
+}
+
+.foodPreviewCont:nth-child(4n + 1) {
+  margin-left: 1%;
+}
+
+.foodLabel {
+  width: 30%;
+  text-align: right;
+  padding-right: 3px;
+  /* border: 1px solid black; */
+}
+
+.foodValue {
+  width: 70%;
+  /* border: 1px solid black; */
+}
+
+.foodName {
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.foodBrand {
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 2px;
+}
+
+.foodContentsLabel {
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 2px;
+}
+
+.dataItem {
+  margin-top: 2px;
+}

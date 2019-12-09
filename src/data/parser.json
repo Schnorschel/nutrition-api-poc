@@ -1,0 +1,738 @@
+{
+  "text" : "cauliflower",
+  "parsed" : [ {
+    "food" : {
+      "foodId" : "food_buqfaxubzh6hi5asev8a5aj9sr71",
+      "label" : "Cauliflower",
+      "nutrients" : {
+        "ENERC_KCAL" : 25.0,
+        "PROCNT" : 1.92,
+        "FAT" : 0.28,
+        "CHOCDF" : 4.97,
+        "FIBTG" : 2.0
+      },
+      "category" : "Generic foods",
+      "categoryLabel" : "food"
+    }
+  } ],
+  "hints" : [ {
+    "food" : {
+      "foodId" : "food_buqfaxubzh6hi5asev8a5aj9sr71",
+      "label" : "Cauliflower",
+      "nutrients" : {
+        "ENERC_KCAL" : 25.0,
+        "PROCNT" : 1.92,
+        "FAT" : 0.28,
+        "CHOCDF" : 4.97,
+        "FIBTG" : 2.0
+      },
+      "category" : "Generic foods",
+      "categoryLabel" : "food"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+      "label" : "Whole",
+      "qualified" : [ [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_small",
+        "label" : "small"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_medium",
+        "label" : "medium"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_large",
+        "label" : "large"
+      } ] ]
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_head",
+      "label" : "Head",
+      "qualified" : [ [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_medium",
+        "label" : "medium"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_large",
+        "label" : "large"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_small",
+        "label" : "small"
+      } ] ]
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+      "label" : "Serving"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_floweret",
+      "label" : "Floweret"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+      "label" : "Piece"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup",
+      "qualified" : [ [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_chopped",
+        "label" : "chopped"
+      } ] ]
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_alwiwxpbbpc68ebuw2bwfbhbqxn3",
+      "label" : "Cauliflower Popcorn - Roasted Cauliflower",
+      "nutrients" : {
+        "ENERC_KCAL" : 102.83993574093184,
+        "PROCNT" : 1.7356144208267916,
+        "FAT" : 9.330122838680113,
+        "CHOCDF" : 4.492710245577684,
+        "FIBTG" : 1.8079316883612413
+      },
+      "category" : "Generic meals",
+      "categoryLabel" : "meal",
+      "foodContentsLabel" : "cauliflower; salt; olive oil"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+      "label" : "Whole"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+      "label" : "Serving"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_b6m7e1nb77qpczai7opz8bo18for",
+      "label" : "cauliflower, raw",
+      "nutrients" : {
+        "ENERC_KCAL" : 25.0,
+        "PROCNT" : 1.92,
+        "FAT" : 0.28,
+        "CHOCDF" : 4.97,
+        "FIBTG" : 2.0
+      },
+      "category" : "Generic foods",
+      "categoryLabel" : "food",
+      "image" : "https://www.edamam.com/food-img/ca2/ca217d31067dffd35ce1215e7f336bd8.jpg"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_head",
+      "label" : "Head",
+      "qualified" : [ [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_medium",
+        "label" : "medium"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_large",
+        "label" : "large"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_small",
+        "label" : "small"
+      } ] ]
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup",
+      "qualified" : [ [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_chopped",
+        "label" : "chopped"
+      } ] ]
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+      "label" : "Whole",
+      "qualified" : [ [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_small",
+        "label" : "small"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_medium",
+        "label" : "medium"
+      } ], [ {
+        "uri" : "http://www.edamam.com/ontologies/edamam.owl#Qualifier_large",
+        "label" : "large"
+      } ] ]
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+      "label" : "Piece"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_floweret",
+      "label" : "Floweret"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+      "label" : "Serving"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_bn25dnfapkiprwbjqlchlbcx3tmi",
+      "label" : "CAULIFLOWER",
+      "nutrients" : {
+        "ENERC_KCAL" : 29.0,
+        "PROCNT" : 1.1799999475479126,
+        "CHOCDF" : 4.710000038146973,
+        "FIBTG" : 1.2000000476837158
+      },
+      "brand" : "Hy-Vee, Inc.",
+      "category" : "Packaged foods",
+      "categoryLabel" : "food",
+      "foodContentsLabel" : "CAULIFLOWER."
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_axg0sy2bn2wc15bss5zkvacknds7",
+      "label" : "CAULIFLOWER",
+      "nutrients" : {
+        "ENERC_KCAL" : 29.0,
+        "PROCNT" : 2.3499999046325684,
+        "CHOCDF" : 4.710000038146973,
+        "FIBTG" : 2.4000000953674316
+      },
+      "brand" : "Wal-Mart Stores, Inc.",
+      "category" : "Packaged foods",
+      "categoryLabel" : "food",
+      "foodContentsLabel" : "CAULIFLOWER.",
+      "image" : "https://www.edamam.com/food-img/c75/c750ebba96ec8cdaaba5006efae38b1d.jpg"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+      "label" : "Piece"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_bp4eaz9atls1dma8m4y0caekf3r2",
+      "label" : "CAULIFLOWER",
+      "nutrients" : {
+        "ENERC_KCAL" : 29.0,
+        "PROCNT" : 1.159999966621399,
+        "CHOCDF" : 4.650000095367432,
+        "FIBTG" : 1.2000000476837158
+      },
+      "brand" : "Harris-Teeter Inc.",
+      "category" : "Packaged foods",
+      "categoryLabel" : "food",
+      "foodContentsLabel" : "CAULIFLOWER."
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_b5bkxbpb8ssef1a0pjxjia9l5a46",
+      "label" : "CAULIFLOWER",
+      "nutrients" : {
+        "ENERC_KCAL" : 29.0,
+        "PROCNT" : 1.159999966621399,
+        "CHOCDF" : 4.650000095367432,
+        "FIBTG" : 1.2000000476837158
+      },
+      "brand" : "Target Stores",
+      "category" : "Packaged foods",
+      "categoryLabel" : "food",
+      "foodContentsLabel" : "ORGANIC CAULIFLOWER."
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_a2kf8wpa75fe8kawp8sb2bk8rith",
+      "label" : "CAULIFLOWER",
+      "nutrients" : {
+        "ENERC_KCAL" : 29.0,
+        "PROCNT" : 1.1799999475479126,
+        "CHOCDF" : 4.710000038146973,
+        "FIBTG" : 1.2000000476837158
+      },
+      "brand" : "Hy-Vee, Inc.",
+      "category" : "Packaged foods",
+      "categoryLabel" : "food",
+      "foodContentsLabel" : "CAULIFLOWER.",
+      "image" : "https://www.edamam.com/food-img/e51/e515347cd2f9456b386add5f874ec271.jpg"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_arny3amaeahxmrahihb7abmm8fkb",
+      "label" : "CAULIFLOWER",
+      "nutrients" : {
+        "ENERC_KCAL" : 29.0,
+        "PROCNT" : 1.1799999475479126,
+        "CHOCDF" : 4.710000038146973,
+        "FIBTG" : 1.2000000476837158
+      },
+      "brand" : "Safeway, Inc.",
+      "category" : "Packaged foods",
+      "categoryLabel" : "food",
+      "foodContentsLabel" : "CAULIFLOWER.",
+      "image" : "https://www.edamam.com/food-img/408/40808fc8ff20e9649c3b70a515ae0802.jpg"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+      "label" : "Piece"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_bmeiacqbizqtgfbuicfq4by8oub8",
+      "label" : "CAULIFLOWER",
+      "nutrients" : {
+        "ENERC_KCAL" : 29.0,
+        "PROCNT" : 1.1799999475479126,
+        "CHOCDF" : 4.710000038146973,
+        "FIBTG" : 1.2000000476837158
+      },
+      "brand" : "Safeway, Inc.",
+      "category" : "Packaged foods",
+      "categoryLabel" : "food",
+      "foodContentsLabel" : "CAULIFLOWER."
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+      "label" : "Piece"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_a5ndm5bbfh3q0za1pcbynaxvhlv5",
+      "label" : "CAULIFLOWER",
+      "nutrients" : {
+        "ENERC_KCAL" : 29.0,
+        "PROCNT" : 1.1799999475479126,
+        "CHOCDF" : 4.710000038146973,
+        "FIBTG" : 1.2000000476837158
+      },
+      "brand" : "White Rose Tea Inc.",
+      "category" : "Packaged foods",
+      "categoryLabel" : "food",
+      "foodContentsLabel" : "CAULIFLOWER.",
+      "image" : "https://www.edamam.com/food-img/640/640fba937769d1f99b82c7478c965bc1.jpg"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_adgycxka1q7shjbvfmrupbr1j6o1",
+      "label" : "CAULIFLOWER",
+      "nutrients" : {
+        "ENERC_KCAL" : 29.0,
+        "PROCNT" : 1.1799999475479126,
+        "CHOCDF" : 4.710000038146973,
+        "FIBTG" : 2.4000000953674316
+      },
+      "brand" : "Tops Markets, LLC",
+      "category" : "Packaged foods",
+      "categoryLabel" : "food",
+      "foodContentsLabel" : "CAULIFLOWER."
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_b4x5lo2ac3lg94b6uizcybceb7b5",
+      "label" : "CAULIFLOWER",
+      "nutrients" : {
+        "ENERC_KCAL" : 29.0,
+        "PROCNT" : 1.1799999475479126,
+        "CHOCDF" : 4.710000038146973,
+        "FIBTG" : 1.2000000476837158
+      },
+      "brand" : "Food Town Stores Inc.",
+      "category" : "Packaged foods",
+      "categoryLabel" : "food",
+      "foodContentsLabel" : "CAULIFLOWER."
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+      "label" : "Piece"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_ar3ewv0bjoar49almrfrhbm6yk0k",
+      "label" : "Cauliflower",
+      "nutrients" : {
+        "ENERC_KCAL" : 27.557782773109697,
+        "PROCNT" : 2.2046226218487757,
+        "CHOCDF" : 5.511556554621939,
+        "FIBTG" : 2.2046226218487757
+      },
+      "brand" : "Cauliflower",
+      "category" : "Packaged foods",
+      "categoryLabel" : "food",
+      "foodContentsLabel" : "Cauliflower",
+      "image" : "https://www.edamam.com/food-img/bd0/bd0f238f6ab65fbe41fd439708e546ba.jpg"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_piece",
+      "label" : "Piece"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_a1et0x4bakjv6ibh8d9aga1hw102",
+      "label" : "CAULIFLOWER",
+      "nutrients" : {
+        "ENERC_KCAL" : 24.0,
+        "PROCNT" : 2.3499999046325684,
+        "CHOCDF" : 3.5299999713897705,
+        "FIBTG" : 2.4000000953674316
+      },
+      "brand" : "The Moran Group Incorporated",
+      "category" : "Packaged foods",
+      "categoryLabel" : "food",
+      "foodContentsLabel" : "CAULIFLOWER"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_b37ygpcb0ud2msac22xjgatcpcdh",
+      "label" : "CAULIFLOWER CRUMBLES CHOPPED CAULIFLOWER",
+      "nutrients" : {
+        "ENERC_KCAL" : 24.0,
+        "PROCNT" : 2.3499999046325684,
+        "CHOCDF" : 4.710000038146973,
+        "FIBTG" : 2.4000000953674316
+      },
+      "brand" : "Growers Marketing, LLC",
+      "category" : "Packaged foods",
+      "categoryLabel" : "food",
+      "foodContentsLabel" : "CAULIFLOWER."
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_cup",
+      "label" : "Cup"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_akvlriyauz5jgxaryw72saroshep",
+      "label" : "CAULIFLOWER",
+      "nutrients" : {
+        "ENERC_KCAL" : 18.0,
+        "CHOCDF" : 3.569999933242798
+      },
+      "brand" : "George DeLallo Co., Inc.",
+      "category" : "Packaged foods",
+      "categoryLabel" : "food",
+      "foodContentsLabel" : "CAULIFLOWER; VINEGAR; WATER; SALT; CALCIUM CHLORIDE; SODIUM METABISULFITE; 1/10 OF 1% BENZOATE OF SODA; SPICES; FD&C YELLOW #5.",
+      "image" : "https://www.edamam.com/food-img/c98/c9854e0314b52a0fa11952a938c7c788.png"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_bv396uub62402qb08c8kobcn8ptc",
+      "label" : "Frosted Cauliflower",
+      "nutrients" : {
+        "ENERC_KCAL" : 227.9995185694636,
+        "PROCNT" : 2.0796231086657495,
+        "FAT" : 23.190929848693262,
+        "CHOCDF" : 3.6873514442916093,
+        "FIBTG" : 1.3686382393397525
+      },
+      "category" : "Generic meals",
+      "categoryLabel" : "meal",
+      "foodContentsLabel" : "cauliflower; American cheese; mayonnaise; mustard"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+      "label" : "Whole"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+      "label" : "Serving"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_aqkik77b76uu7ebxvwmopbs5kvvr",
+      "label" : "Grilled Cauliflower",
+      "nutrients" : {
+        "ENERC_KCAL" : 85.5366232481973,
+        "PROCNT" : 1.8188676555963286,
+        "FAT" : 7.205935486338311,
+        "CHOCDF" : 4.892143802433706,
+        "FIBTG" : 1.9665132875336073
+      },
+      "category" : "Generic meals",
+      "categoryLabel" : "meal",
+      "foodContentsLabel" : "cauliflower; olive oil; sea salt; black pepper"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+      "label" : "Whole"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+      "label" : "Serving"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    } ]
+  }, {
+    "food" : {
+      "foodId" : "food_bkdx2zzbot9v8vacwm8etabjxzvb",
+      "label" : "Company Cauliflower",
+      "nutrients" : {
+        "ENERC_KCAL" : 73.0347481386574,
+        "PROCNT" : 4.053416930631287,
+        "FAT" : 4.831632302359405,
+        "CHOCDF" : 4.327082153545183,
+        "FIBTG" : 1.4612966718025469
+      },
+      "category" : "Generic meals",
+      "categoryLabel" : "meal",
+      "foodContentsLabel" : "frozen cauliflower; mushrooms; mushroom soup; pimento cheese"
+    },
+    "measures" : [ {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_unit",
+      "label" : "Whole"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_serving",
+      "label" : "Serving"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_gram",
+      "label" : "Gram"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_ounce",
+      "label" : "Ounce"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_pound",
+      "label" : "Pound"
+    }, {
+      "uri" : "http://www.edamam.com/ontologies/edamam.owl#Measure_kilogram",
+      "label" : "Kilogram"
+    } ]
+  } ],
+  "_links" : {
+    "next" : {
+      "title" : "Next page",
+      "href" : "https://api.edamam.com/api/food-database/parser?session=40&ingr=cauliflower&app_id=c8c8984b&app_key=69c858de3c65fd201550f2079dfd68e6"
+    }
+  }
+}
