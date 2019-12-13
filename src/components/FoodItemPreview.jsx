@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import AmountSelector from './AmountSelector'
 
 const FoodItemPreview = props => {
-  // All numbers are rounded to one digit
+  // prettier-ignore
+  const [selectedQty, setSelectedQty] = useState(100)
+  const [selectedMeasure, setSelectedMeasure] = useState(
+    'http://www.edamam.com/ontologies/edamam.owl#Measure_gram'
+  )
+  const [selectedQualifier, setSelectedQualifier] = useState()
+
+  // Round numbers to one decimal digit
   const formatNum = num => {
     if (typeof num !== 'undefined' || !isNaN(num)) {
       return parseFloat(num).toFixed(1)
@@ -11,22 +18,22 @@ const FoodItemPreview = props => {
   }
 
   // Nope
-  const roundNumber = (num, scale) => {
-    if (!('' + num).includes('e')) {
-      return +(Math.round(num + 'e+' + scale) + 'e-' + scale)
-    } else {
-      var arr = ('' + num).split('e')
-      var sig = ''
-      if (+arr[1] + scale > 0) {
-        sig = '+'
-      }
-      return +(
-        Math.round(+arr[0] + 'e' + sig + (+arr[1] + scale)) +
-        'e-' +
-        scale
-      )
-    }
-  }
+  // const roundNumber = (num, scale) => {
+  //   if (!('' + num).includes('e')) {
+  //     return +(Math.round(num + 'e+' + scale) + 'e-' + scale)
+  //   } else {
+  //     var arr = ('' + num).split('e')
+  //     var sig = ''
+  //     if (+arr[1] + scale > 0) {
+  //       sig = '+'
+  //     }
+  //     return +(
+  //       Math.round(+arr[0] + 'e' + sig + (+arr[1] + scale)) +
+  //       'e-' +
+  //       scale
+  //     )
+  //   }
+  // }
 
   // Capitalizes first letter of string s
   const toSentenceCase = s => {
@@ -46,19 +53,19 @@ const FoodItemPreview = props => {
   }
 
   // returns true if string s consists of mostly block capitals (90%)
-  const isMostlyBlockCapitals = s => {
-    return (
-      s.split('').reduce((total, letter) => {
-        return (total += letter >= 'A' && letter <= 'Z' ? 1 : 0)
-      }, 0) > parseInt(s.length * 0.9)
-    )
-  }
+  // const isMostlyBlockCapitals = s => {
+  //   return (
+  //     s.split('').reduce((total, letter) => {
+  //       return (total += letter >= 'A' && letter <= 'Z' ? 1 : 0)
+  //     }, 0) > parseInt(s.length * 0.9)
+  //   )
+  // }
 
-  const noOfBlockCapitals = s => {
-    return s.split('').reduce((total, letter) => {
-      return (total += letter >= 'A' && letter <= 'Z' ? 1 : 0)
-    }, 0)
-  }
+  // const noOfBlockCapitals = s => {
+  //   return s.split('').reduce((total, letter) => {
+  //     return (total += letter >= 'A' && letter <= 'Z' ? 1 : 0)
+  //   }, 0)
+  // }
 
   // Returns a number that expresses the ratio between the count of
   // lower and upper case letters in string s.
@@ -80,11 +87,23 @@ const FoodItemPreview = props => {
     }
   }
 
+  const updateQty = e => {
+    setSelectedQty(e.target.value)
+  }
+
+  const updateMeasure = e => {
+    setSelectedMeasure(e.target.value)
+  }
+
+  const updateQualifier = e => {
+    setSelectedQualifier(e.target.value)
+  }
+
   return (
     // prettier-ignore
     <div className="foodPreviewCont">
       <section className="foodName">{toPascalCase(props.foodLabel.toLowerCase())}</section><section className="foodId">{props.foodId.substring(props.foodId.length - 4)}</section>
-      {/* <section className="measures"><AmountSelector measures={props.measures} /></section> */}
+      <section className="measures"><AmountSelector measures={props.measures} selQty={selectedQty} selMeasure={selectedMeasure} selQualifier={selectedQualifier} handleQtyChange={updateQty} handleMeasureChange={updateMeasure} handleQualifierChange={updateQualifier} /></section>
       {props.foodCategory && <section className="foodCategory dataItem">{props.foodCategory}</section>}
       {props.foodBrand && props.foodBrand.toLowerCase().replace(props.searchFor.toLowerCase(), '').length > 2 && <section className="foodBrand dataItem">{props.foodBrand}</section>}
       {props.foodContentsLabel && props.foodContentsLabel.toLowerCase().replace(props.searchFor.toLowerCase(), '').length > 2 && <section className="foodContentsLabel dataItem">{formatLabel(props.foodContentsLabel).replace(/;/g, ',')}</section>}
